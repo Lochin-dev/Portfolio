@@ -1,0 +1,12 @@
+.contactHero {
+  width: 100%;
+  min-height: 70dvh;
+  display: flex;
+  height: auto;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+.title {
+  color: whitesmoke;
+}

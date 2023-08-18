@@ -1,0 +1,34 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+
+.footer {
+    width: 100%;
+    height: 70px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+.footerText {
+    width: 100%;
+    color: #d4d2d2e0;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+
+}
+
+@media (max-width:600px) {
+    .footerText {
+        font-size: 14px;
+    }
+
+    .icon {
+        width: 150px !important;
+    }
+}
