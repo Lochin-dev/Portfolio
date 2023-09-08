@@ -11,6 +11,31 @@ const Work: React.FC = () => {
         <div className={c.img}>
           <LazyLoadImage
             effect="blur"
+            src="https://res.cloudinary.com/dm16fzmqd/image/upload/v1694165301/Screenshot_124_bvkjh3.png"
+            alt="websiye_img"
+          />
+        </div>
+        <h2>Youtobe Clone</h2>
+        <div className={c.des}>
+          <p>Used libraries: react, react router dom, Matereal UI</p>
+          <div className={c.btnGroup}>
+            <a target="_blank" href="https://youtube.lochindev.uz/">
+              Show Clone
+            </a>
+            <a
+              target="_blank"
+              href="https://github.com/Lochin-dev/youtube_clone.git"
+            >
+              Show GitHub
+            </a>
+          </div>
+        </div>
+        <span className={c.workDate}>23.08.2023</span>
+      </div>
+      <div className={c.workItem}>
+        <div className={c.img}>
+          <LazyLoadImage
+            effect="blur"
             src="https://res.cloudinary.com/dm16fzmqd/image/upload/v1692204549/Screenshot_117_amppr4.png"
             alt=""
           />
@@ -30,7 +55,7 @@ const Work: React.FC = () => {
             </a>
           </div>
         </div>
-        <span className={c.workDate}>11.12.2022</span>
+        <span className={c.workDate}>15.07.2023</span>
       </div>
       <div className={c.workItem}>
         <div className={c.img}>
@@ -40,14 +65,15 @@ const Work: React.FC = () => {
             alt="siyte "
           />
         </div>
-        <span className={c.workDate}>01.12.2022</span>
+        <span className={c.workDate}>01.06.2023</span>
         <h2>Pizza</h2>
         <div className={c.des}>
-          <p>
-          JavaSctipt, SASS. BOOTSTRAP
-          </p>
+          <p>JavaSctipt, SASS. BOOTSTRAP</p>
           <div className={c.btnGroup}>
-            <a target="_blank" href="https://commerce-nine-liart-61.vercel.app/">
+            <a
+              target="_blank"
+              href="https://commerce-nine-liart-61.vercel.app/"
+            >
               Show Clone
             </a>
             <a
@@ -70,9 +96,7 @@ const Work: React.FC = () => {
         <span className={c.workDate}>08.05.2023</span>
         <h2>Davlatlar</h2>
         <div className={c.des}>
-          <p>
-          JavaSctipt, SASS. BOOTSTRAP
-          </p>
+          <p>JavaSctipt, SASS. BOOTSTRAP</p>
           <div className={c.btnGroup}>
             <a target="_blank" href="https://davlatlar.vercel.app/">
               Show Project
@@ -99,9 +123,7 @@ const Work: React.FC = () => {
         <h2>Eduvi</h2>
         <br />
         <div className={c.des}>
-          <p>
-            HTML, SASS, JAVASCTIPT
-          </p>
+          <p>HTML, SASS, JAVASCTIPT</p>
           <div className={c.btnGroup}>
             <a target="_blank" href="https://examen-4.vercel.app/login.html">
               Show Clone
