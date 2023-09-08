@@ -1,6 +1,6 @@
 import React from "react";
 import c from "./Home.module.css";
-import resume from "../../files/FullStackCV.pdf";
+import resume from "../../files/Qvondiqov Lochin_Resume_Full-Stacke.pdf";  
 import mainImg from "../../assets/Images/lochindev.jpg";
 
 const Home: React.FC = () => {
